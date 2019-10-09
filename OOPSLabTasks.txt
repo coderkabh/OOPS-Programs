@@ -1,0 +1,69 @@
+12-Aug-19 
+	1. WAP to declare and initalize all the diff. types of variables and print them.
+	
+
+
+19-Aug-19
+	1. WAP to accept n integers from user. User will enter the value of n.
+	2. WAP to print 10 integers starting from 1. 
+	3. WAP to accept n integers from user and print the sum of those n integers.
+
+26-Aug-19
+	1. Create a console based menu driven calculator which can perform all,divide,multiply,sub. This app contains 2 classes. MyCalculator and MyMain
+
+9-Sept-19
+	1. //Not a task
+		How to compile a package file;
+		javac a/b/c/Demo.java
+		where the pwd is baseDirectory
+		C:\Users\Desktop>
+
+		How to run a package file;
+		javac a/b/c/Demo (ClassName)
+		where the pwd is baseDirectory
+		C:\Users\Desktop>
+
+	2. 	Create a small project myClass(base location) which contain 2 packages Student and main
+		this project will contain a class called person which is stored in a sub package student.person
+		The person class will contain 2 instace fields i.e. name and email. Create another class student which
+		is derived from person which is defined in a subpackage student.student.
+		
+		The student class will contain 2 instance fileds that are rollno and CPI.
+		Write a test program called myClassName which is stored in a package main
+		Create 3 instance of student and print theit details.
+		Implement 100% encaplusation and implement the program structure
+
+
+
+16-Sept-19
+	1.	WAP to create an array to store 10 values and initialize them by 10,20,30,40,50,60,70,80,90,100
+		and print them.	
+
+	2.	WAP to print sum of all the elements of an array.
+
+	3.	WAP to find the largest element of an given array.
+
+	4.	Create a Student class with 3 private fields name, rollno, CPI. Create an array of student to 			store 5 objects initialized with null value.
+
+
+23-Spet-19
+	1.	WAP to generate and print 100 random integer by using random class (java.util.random) for generating
+		integers we can use nextInt() functionality of random class.
+
+	2.	WAP to create an int array with a random size, initialize all the indices of the random array with
+		a random integer. Ask the user to enter the any index and print the value stored on that index.
+
+		(b) Whenever an ArrayIndexOutOfBound exxception occurs you must throw your exception called 		MyException.
+			(To create a custom exception we have to extend java.lang.MyException)
+			(Your exception class must provide a parametrized constructor with a string arguement called
+			Message)
+
+		Throw and throws are used to generate custom exception
+		With throw you can also chain multiple exception i.e. you can still forward existing exception by 			including that exception in your custom exception.
+
+	3.	WAP to create a custom exception class called InvalidStudentException. This exception will be thrown whenever from the array of student you are trying to search enrollno which is not present in the student list.
+
+
+30-Spet-19
+	1.	WAP to generate userID by accepting first name,last name and zip of the user. To create user ID contition is the greater string take first two characters, from the smaller string take the number of the index of the larger string length while traversing in the foward direction. If the length is greater than the pin code take the last charcater. If the charater at the index of the smaller string length from the pin code at the smaller string while traversing in the backward direction. If the length of the smaller string greater then the pincode length then accept the final character of the pin code. If both strings a
+
